@@ -9,60 +9,132 @@
 
 <header>
 	<img src="img/Nederlandse-spoorwegen-NS-logo.png" alt="logo ns">
-	<h1>NS verhalen</h1>
+	<h1>Verhalen</h1>
 	<nav>
 		<ul>
 			<li><a href="zoeken.html">Zoeken</a></li>
-			<li><a href="mijnaccount.html">Mijn account</a></li>
+			<li><a href="mijnaccount.html">Mijn verhalen</a></li>
 			<li><a href="engelsns.html">EN</a></li>
 		</ul>
 	</nav>
 </header>
 
 <main>
-	<img src="img/reading-1024x614.jpg" alt="lezen">
-	<article>
-		<h2>Verhaal van de dag</h2>
-		<h3>MOE</h3>
-		<a href="verhaalvandedag">lezen</a>
-	</article>
+	<img src="img/lezenintrein.png" alt="lezen">
 
-	<nav>
-		<ul>
-			<li>Genre</li>
-			<li>Perspectief</li>
-			<li>Ranking</li>
-		</ul>
-	</nav>
-
-	<nav>
-		<ul>
-			<li>Random</li>
-		</ul>
-	</nav>
-
+<section>
+	<h2>Filter je verhalen</h2>
+	<form>
+        <fieldset>
+       	 	<legend>Lengte</legend>
+				<label for="lengte-kort">Kort</label>
+				<input type="checkbox" id="lengte-kort" name="lengte">
+				<label for="lengte-middel">Middel</label>
+				<input type="checkbox" id="lengte-middel" name="lengte">
+				<label for="lengte-lang">Lang</label>
+				<input type="checkbox" id="lengte-lang" name="lengte">
+				<button type="submit">Bevestig</button>
+		</fieldset>
+				
+		<fieldset>
+        	<legend>Categorie</legend>
+				<label for="categorie-avontuurlijk">Avontuurlijk</label>
+				<input type="checkbox" id="categorie-avontuurlijk" name="categorie">
+				<label for="categorie-correspondentie">Correspondentie</label>
+				<input type="checkbox" id="categorie-correspondentie" name="categorie">
+				<label for="categorie-familie">Familie</label>
+				<input type="checkbox" id="categorie-familie" name="categorie">
+				<label for="categorie-fantasie">Fantasie</label>
+				<input type="checkbox" id="categorie-fantasie" name="categorie">
+				<label for="categorie-gezondheid">Gezondheid</label>
+				<input type="checkbox" id="categorie-gezondheid" name="categorie">
+				<label for="categorie-komedie">Komedie</label>
+				<input type="checkbox" id="categorie-komedie" name="categorie">
+				<label for="categorie-kunst">Kunst</label>
+				<input type="checkbox" id="categorie-kunst" name="categorie">
+				<label for="categorie-maatschappelijk">Maatschappelijk</label>
+				<input type="checkbox" id="categorie-maatschappelijk" name="categorie">
+				<label for="categorie-nurks">Nurks</label>
+				<input type="checkbox" id="categorie-nurks" name="categorie">	
+				<label for="categorie-personen">Personen</label>
+				<input type="checkbox" id="categorie-personen" name="categorie">
+				<label for="categorie-politiek">Politiek</label>
+				<input type="checkbox" id="categorie-politiek" name="categorie">
+				<label for="categorie-romantiek">Romantiek</label>
+				<input type="checkbox" id="categorie-romantiek" name="categorie">
+				<label for="categorie-sport">Sport</label>
+				<input type="checkbox" id="categorie-sport" name="categorie">
+				<button type="submit">Bevestig</button>
+		</fieldset>
+			
+		<fieldset>
+        	<legend>Ranking</legend>
+				<label for="ranking-eenster">*</label>
+				<input type="checkbox" id="ranking-eenster" name="ranking">
+				<label for="ranking-tweester">**</label>
+				<input type="checkbox" id="ranking-tweester" name="ranking">
+				<label for="ranking-driester">***</label>
+				<input type="checkbox" id="ranking-driester" name="ranking">
+				<label for="ranking-vierster">****</label>
+				<input type="checkbox" id="ranking-vierster" name="ranking">
+				<button type="submit">Bevestig</button>
+		</fieldset>
+		</form>
+	</section>
+	
 	<section>
 	<h3>Verhalen</h3>
+	<form>
+       	<fieldset>
+			<label for="sorteren-verrasme"> Sorteren
+      		<select name="sorteren-verrasme" id="sorteren-verrasme">
+       			<option value="Verras-me" selected>Verras me</option>
+        		<option value="Populairste">Populairste</option>
+        		<option value="Titel A-Z">Titel A-Z</option>
+        		<option value="Hoogste ranking">Hoogste ranking</option>
+      		</select>
+      		</label>
+		</fieldset>
+	</form>
+	
 		<article>
-			<img src="img/nichterig.beeldscherm-03.png" alt="Nichterig verhaal">
+			<img src="img/nichterig.beeldscherm-03.png" alt="Nichterig-verhaal">
 			<h3>Nichterig</h3>
-			<img src="img/star.svg" alt="ster">
-			<p>STERREN(45)</p>
+			<p>****(45)</p>
 			<p>Dus ik stap de bus uit, met mijn zoon in mijn wagen, en ik schrik me daar toch het apenlazarus...</p>
+			<a href="nichterig.html">Lees meer</a>
 		</article>
 		
 		<article>
-			<img src="img/verliefd.beeldscherm-02.png" alt="verliefd verhaal">
+			<img src="img/verliefd.beeldscherm-02.png" alt="verliefd-verhaal">
 			<h3>Verliefd</h3>
-			<p>STERREN(56)</p>
+			<p>***(56)</p>
 			<p>Licht van mijn leven. Ik stapte vandaag bus 21 uit. Het was op het midden van de...</p>
+			<a href="verliefd.html">Lees meer</a>
 		</article>
 		
 		<article>
-			<img src="img/moe.beeldscherm-02.png" alt="verliefd verhaal">
-			<h3>Job Cohen</h3>\
-			<p>STERREN (102)</p>
+			<img src="img/moe.beeldscherm-02.png" alt="moe-verhaal">
+			<h3>Moe</h3>
+			<p>**** (102)</p>
 			<p>Euh, ik stap, euh uit bus 21. Halte Centraal Station. In de stad waar ik met zoveel plezier...</p>
+			<a href="moe.html">Lees meer</a>
+		</article>
+		
+		<article>
+			<img src="img/reading-1024x614.jpg" alt="moe-verhaal">
+			<h3>Touristische route</h3>
+			<p>**** (102)</p>
+			<p>Euh, ik stap, euh uit bus 21. Halte Centraal Station. In de stad waar ik met zoveel plezier...</p>
+			<a href="moe.html">Lees meer</a>
+		</article>
+		
+		<article>
+			<img src="img/reading-1024x614.jpg" alt="moe-verhaal">
+			<h3>Moe</h3>
+			<p>**** (102)</p>
+			<p>Euh, ik stap, euh uit bus 21. Halte Centraal Station. In de stad waar ik met zoveel plezier...</p>
+			<a href="moe.html">Lees meer</a>
 		</article>
 	</section>
 	
