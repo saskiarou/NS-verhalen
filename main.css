@@ -1,0 +1,141 @@
+/*
+============================
+Body
+============================
+*/ 
+body {
+	background-color: rgb(230,230,233);
+	margin: 0;
+}
+
+/*
+============================
+Header
+============================
+*/
+
+header { 
+	background-color: white;
+}
+
+h1 {
+  	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 22px;
+	color: rgb(5,51,128);
+	margin: 20px;
+}
+
+header img {
+	width: 52px;
+	height: auto;
+	margin-left: 20px;
+}
+
+nav li a {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 22px; 
+	color: rgb(5,51,128);
+	text-decoration: none;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+/*li {
+	display: none;
+}
+
+
+
+/* 
+============================
+main
+============================
+*/
+
+main img {
+	width: 100%;
+	height: auto;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 28px;
+	color: rgb(5,51,128);
+	margin: 20px;
+	padding-top: 10px;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: rgb(5,51,128);
+}
+
+
+/* 
+============================
+filter
+============================
+*/
+
+section:nth-of-type(1) {
+	background-color: rgb(253,199,54);
+	margin: 20px;
+	
+}
+
+form legend {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: rgb(5,51,128);
+	padding-top: 10px;
+}
+
+form label {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: rgb(5,51,128);
+}
+
+/* 
+============================
+artikelen
+============================
+*/
+
+h3 {
+	margin: 10px;
+}
+
+article p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	margin: 10px;
+}
+
+article a { 
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	text-decoration: none;
+	color: rgb(178,29,171);
+	margin: 10px;
+}
+
+article {
+	margin: 10px; 
+	padding-bottom: 10px;
+	background-color: white;
+}
+
+article a img {
+	width: 30px;
+}
