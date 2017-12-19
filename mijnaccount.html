@@ -2,23 +2,36 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,500" rel="stylesheet">
 	<title>Mijn account</title>
 </head>
 <body>
 
-<h1>Log-in formulier</h1>
+<header>
+	<img src="img/Nederlandse-spoorwegen-NS-logo.png" alt="logo ns">
+	<h1>Verhalen</h1>
+	<nav>
+		<ul>
+			<li><a href="zoeken.html"><img src="img/zoeken.svg" alt="Zoeken">Zoeken</a></li>
+			<li><a href="mijnaccount.html"><img src="img/poppetje.svg" alt="Poppetje mijn account">Mijn verhalen</a></li>
+		</ul>
+	</nav>
+</header>
+
+<h1>Welkom bij uw NS-verhalensite</h1>
 <form>
 	<fieldset>
-		<legend>Email</legend>
-		<label><input type="email"></label>
-	</fieldset>
-	<fieldset>
-		<legend>Wachtwoord</legend>
-		<label><input type="text"></label>
-	</fieldset>
-</form>
-
-<h2><a href="startpagina.html">Aanmelden</a></h2>
+		<legend>Inloggen verhalenwebsite</legend>
+			<label for="emailadres">Email</label>
+			<input type="email" id="emailadres" name="email">
+			<label for="wachtwoord">Wachtwoord</label>
+			<input type="text" id="wachtwoord" name="wachtwoord">
+			<button type="submit">Wachtwoord vergeten</button>
+			<button type="submit">Bevestig</button>
+		</fieldset>
+</form>  
 	
 </body>
 </html>
